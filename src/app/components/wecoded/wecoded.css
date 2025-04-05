@@ -1,0 +1,104 @@
+.game-board-image {
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 4rem;
+  align-items: center;
+  gap: 2rem;
+  background: rgb(204, 234, 113);
+  background: linear-gradient(
+    333deg,
+    rgba(204, 234, 113, 1) 0%,
+    rgba(75, 96, 233, 1) 72%,
+    rgba(99, 82, 192, 1) 100%
+  );
+  display: flex;
+
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+
+.game-board {
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 6rem;
+  align-items: center;
+  gap: 2rem;
+  display: none;
+  background: rgb(204, 234, 113);
+  background: linear-gradient(
+    333deg,
+    rgba(204, 234, 113, 1) 0%,
+    rgba(75, 96, 233, 1) 72%,
+    rgba(99, 82, 192, 1) 100%
+  );
+
+  @media (min-width: 992px) {
+    display: flex;
+  }
+
+  .drag-items {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .drag-item {
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 80px;
+    cursor: grab;
+  }
+
+  #drop-zones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 16px;
+  }
+
+  .drop-zone {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    border: 2px dashed #999;
+    text-align: center;
+    line-height: 150px;
+  }
+
+  .drop-zone.active {
+    background-color: lightgreen;
+  }
+
+  .speech-bubble {
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    z-index: 2;
+
+    .close-btn {
+      text-align: right;
+      font-size: small;
+    }
+  }
+}
+
+article {
+  &:hover {
+    .article-title {
+      color: oklch(58.5% 0.233 277.117);
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "facts": {
+    "testing-library": {
+      "1": "Testing Library emphasizes testing the application from the user's perspective. It encourages tests that resemble how users interact with the UI.",
+      "2": "Testing Library promotes accessibility by default. Its query methods encourage tests that ensure the application is usable by everyone.",
+      "3": "It was initially created for React and later adapted for other frameworks like Vue."
+    },
+    "react": {
+      "1": "React was initially developed by Jordan Walke, a software engineer at Facebook, and was first used in Facebook's newsfeed in 2011. It was later open-sourced in 2013.",
+      "2": "React uses a virtual DOM, which is a lightweight copy of the actual DOM",
+      "3": "React's key prop can actually be any unique value, including non-primitive values like objects or arrays."
+    },
+    "vue": {
+      "1": "Vue.js was created by Evan You, a former Google employee, who wanted to create a more lightweight and flexible framework compared to Angular.",
+      "2": "Vue is designed to be incrementally adoptable. This means you can integrate it into existing projects gradually.",
+      "3": "Vue has a particularly strong and active community in Asia, especially in China."
+    },
+    "html": {
+      "1": "HTML was invented by Tim Berners-Lee, the same person who invented the World Wide Web, in 1990.",
+      "2": "HTML is constantly evolving with new standards and features. HTML5, the latest major version, introduced features like <video>, <audio>, and <canvas>",
+      "3": "The <title> tag is not actually required to be inside the <head> element—even though it is traditionally placed there."
+    },
+    "javascript": {
+      "1": "JavaScript was created by Brendan Eich at Netscape in just 10 days in May 1995. It was initially named Mocha, then LiveScript, before finally becoming JavaScript.",
+      "2": "JavaScript is standardized by ECMAScript, which ensures compatibility across different browsers and JavaScript engines.",
+      "3": "NaN (Not a Number) is technically a number and not something 'not-a-number' console.log(typeof NaN);  // 'number'"
+    },
+    "dev-to": {
+      "1": "Dev.to is known for its welcoming and inclusive community, where developers of all skill levels can share their knowledge and experiences.",
+      "2": "The Dev.to platform is open-source, which means anyone can contribute to its development and suggest improvements.",
+      "3": "The Dev.to platform is built using Ruby on Rails, a web application framework known for its convention over configuration philosophy."
+    }
+  },
+  "logos": [
+    {
+      "name": "testing-library",
+      "image-url": "/assets/test-library-v2.png",
+      "placeholder-url": "",
+      "alt": "Testing Library logo"
+    },
+    {
+      "name": "react",
+      "image-url": "/assets/react-blue.png",
+      "placeholder-url": "",
+      "alt": "React blue logo"
+    },
+    {
+      "name": "javascript",
+      "image-url": "/assets/javascript-gray.png",
+      "placeholder-url": "",
+      "alt": "Javascript logo"
+    },
+    {
+      "name": "dev-to",
+      "image-url": "/assets/devto-black.png",
+      "placeholder-url": "",
+      "alt": "Dev.to logo"
+    },
+    {
+      "name": "html",
+      "image-url": "/assets/html-color.png",
+      "placeholder-url": "",
+      "alt": "HTML logo"
+    }
+  ]
+}
